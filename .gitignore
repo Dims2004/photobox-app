@@ -1,0 +1,32 @@
+# Node modules
+node_modules/
+
+# Upload directories
+uploads/
+!uploads/.gitkeep
+
+# Environment files
+.env
+.env.local
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build files
+dist/
+build/
+
+# Test coverage
+coverage/
+.nyc_output/
